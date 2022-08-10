@@ -99,67 +99,78 @@ vertical-align:middle;
 
 .wrapper
 {
-	height: 10em;
+	height: auto;
 	width: 100%;
 	/*background-color: red;*/
 }
 header
 {
-	height: 8em;
+	height: 6em;
 	width: 100%;
+	font-size: smaller;
+	font-family: sans-serif;
 	background-color: black;
 	/* padding: 10px; */
 }
 section
 {
-	height: 550px;
+	height: 100%;
 	width: 100%;
 	background-color: grey;
 }
 
 .logo
 {
-	float :left;
-	padding-left: 20px;
+	float: left;
+	padding-left: 10px;
 	
 
 }
 .logo img 
 {
 	padding-left: 170px;
-	padding-top: 20px;
-	width: 20%;
+	padding-top: 10px;
+	width: 13%;
 	height: auto;
 }
 
 li a
 {
 	color: white;
+	font-family: sans-serif;
 	text-decoration: none;
+	text-align: center;
+	align-items: right;
 }
 nav
 {
 	float: right;
 	word-spacing: 30px;
-	padding: 20px;
+	text-align: center;
+	align-items: right;
+	padding: 10px;
 }
 nav li 
 {
 	display: inline-block;
-	line-height: 80px;
+	line-height: 60px;
 }
 
 section .sec_img
 {
 	height: 550px;
+	position: center;
 	margin-top: 0px;
-	background-image: url("1.jpg");
-	animation: slider 10s infinite linear;
+	background-image: url("res/1.jpg");
+	animation-name: slider;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 @keyframes slider{
-	20%{background-image: url("1.jpg");}
-	20%{background-image: url("2.jpg");}
-	20%{background-image: url("bg.jpg")}
+	0%{background-image: url("res/1.jpg");}
+	33%{background-image: url("res/2.jpg");}
+	66%{background-image: url("res/bg.jpg");}
 }
 .box
 {

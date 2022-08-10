@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(4.jpg);
+    background: url(res/4.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -73,6 +73,7 @@ h1{
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
+    transition: 0.5s ease-out;
 }
 
 .loginbox input[type="submit"]:hover
@@ -80,6 +81,7 @@ h1{
     cursor: pointer;
     background: #ffc107;
     color: #000;
+    transition: 0.5s ease-out;
 }
 
 .loginbox a{
@@ -87,10 +89,11 @@ h1{
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
+    transition: 0.5s ease-out;
 }
 
 .loginbox a:hover
 {
     color: #ffc107;
-
+    transition: 0.5s ease-out;
 }
