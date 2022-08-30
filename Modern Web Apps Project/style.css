@@ -8,6 +8,7 @@
 body {
 	background-size: cover;
 	font-family: sans-serif;
+	background: linear-gradient(20deg, #414141, #000000);
 }
 
 .login-wrapper {
