@@ -1,3 +1,7 @@
-ProfilePic img{
-	height: 2%;
+.ProfilePic img{
+	width: 15%;
+}
+
+.PersonalInfo h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
