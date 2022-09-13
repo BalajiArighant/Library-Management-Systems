@@ -10,7 +10,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px 10%;
+	padding: 12px 10%;
 	background-color: #24252a;
   }
   
@@ -19,7 +19,7 @@
   }
 
   .logo img {
-	width: 20%;
+	width: 15%;
   }
   
   .nav__links a,
@@ -37,7 +37,7 @@
   }
   
   .nav__links li {
-	padding: 0px 20px;
+	padding: 0px 10px;
   }
   
   .nav__links li a {
@@ -130,4 +130,15 @@
 	.menu {
 	  display: initial;
 	}
-  }  
+  }
+
+  .container {
+	width: 60%;
+	/* height: 100vh; */
+	background: #222;
+  }
+
+  .swiper-wrapper {
+	width: 60%;
+	height: fit-content;
+  }
